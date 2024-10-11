@@ -1,9 +1,9 @@
 # OX Game (Tic-Tac-Toe)
 
-Welcome to the **OX Game (Tic-Tac-Toe)** project! This is a simple and interactive implementation of the classic Tic-Tac-Toe game, where you (Player X) go head-to-head against the computer (Player O). It's designed to be user-friendly, allowing anyone to play the game through their browser.
+Welcome to the **OX Game project! This is a simple and interactive implementation of the classic XO game, where you (Player X) go head-to-head against the computer (Player O). It's designed to be user-friendly, allowing anyone to play the game through their browser.
 
 ## Game URL
-You can access and play the game via this link: [OX Game (Tic-Tac-Toe)](YOUR_BINDER_URL_HERE)
+You can access and play the game via this link: [OX Game](YOUR_BINDER_URL_HERE)
 
 ## How to Play
 - The game is played on a 3x3 grid.
@@ -15,11 +15,11 @@ You can access and play the game via this link: [OX Game (Tic-Tac-Toe)](YOUR_BIN
 
 ## Features
 - **Interactive Interface:** The game uses IPython Widgets to provide a smooth and interactive experience.
-- **Computer AI:** The computer responds instantly after your move with a simple AI that picks random available cells.
+- **Computer interaction:** The computer responds instantly after your move with a simple AI that picks random available cells.
 - **Status Updates:** See real-time updates about the game’s progress: whose turn it is, who won, or if the game resulted in a draw.
 - **Restart Option:** Use the reset button to restart the game at any point.
 
-## Technology Stack
+## project components
 This project is implemented using:
 - Python
 - IPython Widgets
@@ -38,8 +38,10 @@ This project is implemented using:
 Alternatively, access the game directly using the URL provided above.
 
 ## Team Members
-- **[Your Name]** – [GitHub Profile](https://github.com/YourGitHubProfile)
-- **[Other Team Member Name]** – [GitHub Profile](https://github.com/OtherMemberGitHubProfile)
+- **Adel** – [GitHub Profile](https://github.com/YourGitHubProfile)
+- **Mamdouh Alsharari** – [GitHub Profile](https://github.com/OtherMemberGitHubProfile)
+- **Lama** – [GitHub Profile](https://github.com/YourGitHubProfile)
+- **Lina** – [GitHub Profile](https://github.com/YourGitHubProfile)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
