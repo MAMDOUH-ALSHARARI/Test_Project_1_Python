@@ -1,9 +1,9 @@
-# OX Game (Tic-Tac-Toe)
+# OX Game
 
-Welcome to the **OX Game project! This is a simple and interactive implementation of the classic XO game, where you (Player X) go head-to-head against the computer (Player O). It's designed to be user-friendly, allowing anyone to play the game through their browser.
+Welcome to the OX Game project! This is a simple and interactive implementation of the classic XO game, where you (Player X) go head-to-head against the computer (Player O). It's designed to be user-friendly, allowing anyone to play the game through their browser.
 
 ## Game URL
-You can access and play the game via this link: [OX Game](YOUR_BINDER_URL_HERE)
+You can access and play the game via this link: [OX Game](https://mybinder.org/v2/gh/MAMDOUH-ALSHARARI/Test_Project_1_Python/HEAD?urlpath=voila%2Frender%2FProject_1_Python.ipynb)
 
 ## How to Play
 - The game is played on a 3x3 grid.
@@ -43,5 +43,3 @@ Alternatively, access the game directly using the URL provided above.
 - **Lama** – [GitHub Profile](https://github.com/YourGitHubProfile)
 - **Lina** – [GitHub Profile](https://github.com/YourGitHubProfile)
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
