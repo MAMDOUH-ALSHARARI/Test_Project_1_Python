@@ -1,17 +1,8 @@
-# OX Game
+# Personality-Quiz
 
-Welcome to the OX Game project! This is a simple and interactive implementation of the classic XO game, where you (Player X) go head-to-head against the computer (Player O). It's designed to be user-friendly, allowing anyone to play the game through their browser.
+The Personality Quiz Game is an interactive application developed using Python and the Pygame library. The game presents a series of questions to the user, allowing them to select answers that correspond to different personality types. At the end of the quiz, the game displays the user's personality type based on their selections.
 
-## Game URL
-You can access and play the game via this link: [OX Game](https://mybinder.org/v2/gh/MAMDOUH-ALSHARARI/Test_Project_1_Python/HEAD?urlpath=voila%2Frender%2FProject_1_Python.ipynb)
 
-## How to Play
-- The game is played on a 3x3 grid.
-- You are Player **X**, and the computer is Player **O**.
-- Click on an empty cell to place your mark (X). The computer will then automatically place its mark (O).
-- The goal is to get three marks in a row (horizontally, vertically, or diagonally).
-- If no one achieves this and all cells are filled, the game ends in a draw.
-- Use the **Reset** button to start a new game at any time.
 
 ## Features
 - **Interactive Interface:** The game uses IPython Widgets to provide a smooth and interactive experience.
@@ -19,28 +10,48 @@ You can access and play the game via this link: [OX Game](https://mybinder.org/v
 - **Status Updates:** See real-time updates about the game’s progress: whose turn it is, who won, or if the game resulted in a draw.
 - **Restart Option:** Use the reset button to restart the game at any point.
 
-## project components
-This project is implemented using:
-- Python
-- IPython Widgets
-- Jupyter Notebook
-- Voilà for deployment
-- Hosted on MyBinder
+## Main Components
 
-## Project Setup
-1. Clone this repository to your local machine.
-2. Install the required dependencies from the `requirements.txt` file.
-3. Run the game locally using Voilà:
-    ```bash
-    voila your_notebook.ipynb
+- **Data Structure:**
+Utilizes a list of dictionaries to store questions, options, and corresponding personality types. This structure allows easy access and management of quiz content.
+
+- **Scoring System:**
+Implements a scoring system to track the user's responses and calculate their personality type based on the answers selected.
+
+- **Display Functions:**
+Defines functions to render text and create buttons, enhancing the user interface and making it intuitive.
+
+- **Event Handling:**
+Uses a main loop to handle user interactions (e.g., mouse clicks) and navigate through questions. This includes checking for user input and updating the display accordingly.
+
+- **Result Calculation**
+Utilizes a max() function with a lambda expression to determine the personality type with the highest score at the end of the quiz.
+## Installation
+
+To run the Personality Quiz Game on your local machine, follow these steps:
+
+1. Clone the Repository
+
+ ```bash
+    git clone https://github.com/yourusername/personality-quiz.git
+    cd personality-quiz
+
+    ```
+2. Install Pygame Make sure you have Python installed. Then, install the Pygame library using pip:
+
+ ```bash
+    pip install pygame
+
+
     ```
 
-Alternatively, access the game directly using the URL provided above.
 
 ## Team Members
-- **Adel** – [GitHub Profile](https://github.com/YourGitHubProfile)
-- **Mamdouh Alsharari** – [GitHub Profile](https://github.com/OtherMemberGitHubProfile)
-- **Lama** – [GitHub Profile](https://github.com/YourGitHubProfile)
-- **Lina** – [GitHub Profile](https://github.com/YourGitHubProfile)
-- **Mouhnd** – [GitHub Profile](https://github.com/YourGitHubProfile)
+- **Adel** 
+- **Mamdouh Alsharari** 
+- **Lama**
+- **Lina**
+- **Mouhnd**
 
+## Game URL
+You can access and play the game via this link: [OX Game](https://mybinder.org/v2/gh/MAMDOUH-ALSHARARI/Test_Project_1_Python/HEAD?urlpath=voila%2Frender%2FProject_1_Python.ipynb)
